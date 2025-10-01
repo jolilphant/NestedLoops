@@ -74,11 +74,13 @@ Use a **grid** to visualize the difference between **ordered pairs** (permutatio
 - Add **row/column headers** for readability.  
 
 ### Example Output (n = 4, D/U/L markers)
-1  2  3  4
-1 | D U U U
-2 | L D U U
-3 | L L D U
-4 | L L L D
+
+```text
+    1  2  3  4
+1 | D  U  U  U
+2 | L  D  U  U
+3 | L  L  D  U
+4 | L  L  L  D
 
 Diagonal (i == j): 4
 Upper triangle (i < j): 6
@@ -86,3 +88,4 @@ Lower triangle (i > j): 6
 Total cells (n * n): 16
 Unique combinations (choose 2) = n*(n-1)/2 = 6
 Ordered pairs (with replacement) = n*n = 16
+```
